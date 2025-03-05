@@ -1,4 +1,4 @@
-# webserver（linux下轻量级服务器）
+# webserver（Linux系统下的轻量级服务器）
 ## 项目介绍：
 本项目是一个高性能的WEB服务器，使用C++实现，项目底层采用了muduo库核心的设计思想，多线程多Reactor的网络模型。代码主体的编写是通过One Loop per Thread思想来编写的，借鉴了很多muduo库里的设计。
 ## 开发环境：

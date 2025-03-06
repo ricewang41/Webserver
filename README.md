@@ -11,8 +11,8 @@ webserver/
 ├── base/ # 基础功能源文件
 ├── test/ # 测试用例
 │ ... # 主体功能源文件 
-├── CMakeLists.txt # CMake 构建文件
-└── README.md # 项目说明文件
+CMakeLists.txt # CMake 构建文件
+README.md # 项目说明文件
 ```
 ## 功能模块划分：
 - 事件轮询与分发模块：`EventLoop.*`、`Channel.*`、`Poller.*`、`EPollPoller.*`负责事件轮询检测，并实现事件分发处理。`EventLoop`对`Poller`进行轮询，`Poller`底层由`EPollPoller`实现。

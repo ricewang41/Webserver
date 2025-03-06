@@ -2,8 +2,7 @@
 ## 项目介绍：
 本项目是一个高性能的WEB服务器，使用C++实现，项目底层采用了muduo库核心的设计思想，多线程多Reactor的网络模型。代码主体的编写是通过One Loop per Thread思想来编写的，借鉴了很多muduo库里的设计。
 ## 开发环境：
-* linux kernel version5.15.0-113-generic (ubuntu 22.04.6)
-* gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+* ubuntu 20
 * cmake version 3.22
 ## 目录结构：
 ```shell
